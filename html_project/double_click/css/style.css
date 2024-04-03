@@ -1,0 +1,48 @@
+* {
+    padding:0;
+    margin:0;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.box {
+    height:600px;
+    width:400px;
+}
+
+.box img{
+    object-fit: cover;
+    height:600px;
+    width:400px;
+    border-radius: 10px;
+}
+#love{
+    position:absolute;
+    top:50%;
+    left:50%;
+    font-size: 70px;
+    color:red;
+    opacity: 0.8;
+    transform:translate(-50%,-50%) scale(0);
+    transition: all 0.3s ease;
+}
+.bottom{
+    display: flex;
+    gap: 10px;
+}
+#like {
+    font-size: 30px;
+}
+#comment{
+    font-size:30px;
+}
+#share {
+    font-size:30px;
+}
