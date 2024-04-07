@@ -99,10 +99,11 @@ body {
 #sun{
     height:200px;
     width:200px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     position: absolute;
     top:1%;
     right:10%;
     transition: all cubi0cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    filter:drop-shadow(0 0 10px rgb(173, 173, 173));
 }
