@@ -12,11 +12,11 @@ html,body{
 body {
     height:100vh;
     width:100%;
-    background-color: #4667bb;
+    background-color: #3b3291;
 }
 
 .main{
-    height:100vh;
+    height:100%;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -41,16 +41,24 @@ body {
 #bush1{
     position: absolute;
     width:100%;
-    z-index: 4;
-    top:53%;
+    top:69%;
+    z-index: 5;
     transition: all cubi0cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#bar{
+    width:100%;
+    height:660px;
+    background-color: #3b3291;
+    position: absolute;
+    top:98%;
+    z-index: 5;
 }
 
 #bush2{
-    z-index: 5;
+    z-index: 4;
     position: absolute;
     width:100%;
-    top:62%;
+    top:52%;
     transition: all cubi0cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
@@ -84,7 +92,7 @@ body {
 .main2{
     height:100vh;
     width:100%;
-    background-color: #4667bb;
+    background-color: #3b3291;
     display: flex;
     justify-content: center;
     align-items: center;
