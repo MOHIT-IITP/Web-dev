@@ -5,6 +5,6 @@
 <img src="../html_project/hover_effect/ss.png" height:100% width:100%>
 <img src="../html_project/shoe_site_under_process/ss.png" height:100% width:100%>
 <img src="../html_project/gsap practice/ss.png" height:100% width:100%>
-<video height="240" width="320" controls>
+<video width="320" height="240"  autoplay>
     <source src="../html_project/fanta parallax/fanta.mp4" type="video/mp4">
 </video>
