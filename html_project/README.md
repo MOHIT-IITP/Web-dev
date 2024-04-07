@@ -7,5 +7,5 @@
 <img src="../html_project/gsap practice/ss.png" height:100% width:100%>
 <video width="320" height="240"  controls>
     <source src="./fanta parallax/fanta.mp4" type="video/mp4">
-    hello
+    Your browser does not supprot the video tag.
 </video>
