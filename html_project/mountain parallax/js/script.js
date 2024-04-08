@@ -10,6 +10,9 @@ var tl = gsap.timeline({scrollTrigger:{
     scrub:true,
 }})
 
+tl.to("#bird1",{
+    x:1900,
+},"leaf")
 tl.to("#leaf1",{
     x:-400,
 },"leaf")
@@ -20,6 +23,9 @@ tl.to("#leaf2",{
 
 tl.to("#bush1",{
     y:-300,
+},"leaf")
+tl.to("#bush2",{
+    y:200,
 },"leaf")
 tl.to("#bar",{
     y:-300,
@@ -34,8 +40,8 @@ tl.to("#sun",{
 },"leaf")
 
 tl.to("#mountain1",{
-    y:100,
+    y:200,
 })
 tl.to("#mountain2",{
-    y:200,
+    y:300,
 })
