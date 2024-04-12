@@ -28,22 +28,31 @@ html , body{
     flex-direction: column;
     font-family: Poppins;
 }
-
 .text{
-    opacity: 0.2;
     position: absolute;
-    left:20%;
-    font-size:5vw;
-    font-weight:600;
-    white-space: nowrap;
 }
 .text1{
-    opacity: 1;
     position: absolute;
-    left: 20%;
-    font-size: 5vw;
-    white-space: nowrap;
-    font-weight: 600;
     overflow: hidden;
+}
+
+.text h1{
+    font-size:4vw;
+    opacity: 0.2;
+}
+.text h2{
+    font-size:2vw;
+    opacity: 0.2;
+}
+.text1 h1{
+    font-size:4vw;
     width:0%;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.text1 h2{
+    font-size:2vw;
+    width:0%;
+    text-wrap: nowrap;
+    overflow: hidden;
 }
