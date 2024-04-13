@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.box{
+    height:70vh;
+    width:80vw;
+    background-color: #fff;
+    font-family:Poppins;
+}
+.left{
+    height:50vh;
+    width:23vw;
+    position: absolute;
+    left:20%;
+    top:20%;
+}
+.box h1{
+    font-size:3vw;
+    color:#1e1e20;
+}
+.box p{
+    font-size:1vw;
+    font-weight: 500;
+    color:#616161;
+    padding-top:3vh;
+}
+
+.left input{
+    font-family: Poppins;
+    font-size: 1vw;
+    font-weight: 600;
+    height:7vh;
+    width:100%;
+    padding:3vh;
+    margin-top:3vh;
+    border: none;
+    border-bottom:3px solid rgb(211, 211, 211);
+}
+
+.left button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-weight: 600;
+    color:white;
+    letter-spacing: 4px;
+    height:6vh;
+    width:100%;
+    margin-top: 50px;;
+    border: 3px solid black;
+    background-color: #1e1e20;
+    padding: 3vh;
+}
+.right{
+    height:50vh;
+    width:30vw;
+    border: 2px solid black;
+    position: absolute;
+    left:60%;
+    top:30%;
+    background-color: #1e1e20;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    z-index: 2;
+}
+.right h1{
+    font-family: Poppins;
+    color:white;
+    font-size: 2vw;
+}
+.right i{
+    font-size: 1.5vw;
+    color:white;
+    display: flex;
+    margin-top:3vh;
+    text-align: end;
+}
+.right p{
+    font-size: 1vw;
+    color: white;
+    font-family:Poppins;
+    padding-left: 1vw;
+}
+.yellowsmall{
+    height:40px;
+    width:40px;
+    position: absolute;
+    background-color: #ffd94a;
+    left:-5%;
+    top:-5%;
+}
+.yellowbox{
+    height:70vh;
+    width:10vw;
+    background-color: #ffd94a;
+    position: absolute;
+    right:10%;
+    z-index: 1;
+}
+.icon{
+    position:absolute;
+    bottom:1%;
+    left:5%;
+}
+
+.yellowbox i{
+    font-size:1vw;
+    padding: 15px;
+}
