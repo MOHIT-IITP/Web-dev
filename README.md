@@ -8,6 +8,8 @@ Library of JS i Use:
 <ol>
     <li>Gsap</li>
   <li>ScrollTrigger</li>
+    <li>locomotive</li>
+    <li>lenis</li>
 </ol>
 Technology i use for web dev
 <ol>
