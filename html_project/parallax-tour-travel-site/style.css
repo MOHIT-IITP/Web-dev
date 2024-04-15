@@ -58,7 +58,7 @@ body{
     color:white;
     z-index: 2;
     position: absolute;
-    filter: drop-shadow(0 5px 3px rgb(77, 77, 77))
+    filter: drop-shadow(0 5px 3px rgb(77, 77, 77));
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
@@ -87,7 +87,7 @@ body{
     height:200px;
     width:100%;
     position: absolute;
-    top:79vh;
+    top:78.5vh;
     background: linear-gradient(to top, #fff, transparent);
     z-index: 10000;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
