@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    height:100vh;
+    width:100;
+}
+
+.main{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#bg{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#leftmount{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 3;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+
+}
+
+#rightmount{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 3;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#cloud1{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.main h1{
+    font-size: 7vw;
+    font-family: Poppins;
+    color:white;
+    z-index: 2;
+    position: absolute;
+    filter: drop-shadow(0 5px 3px rgb(77, 77, 77))
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#cloud2{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#man{
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.main2{
+    height:100vh;
+    width:100%;
+    background-color:white; 
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.box{
+    height:200px;
+    width:100%;
+    position: absolute;
+    top:79vh;
+    background: linear-gradient(to top, #fff, transparent);
+    z-index: 10000;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
