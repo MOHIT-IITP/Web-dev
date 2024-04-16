@@ -15,6 +15,14 @@ tl.to("#leftmount",{
 tl.to("#rightmount",{
     x:300,
 },"mount");
-tl.to("#stone, #man",{
+tl.to("#man",{
     scale:0.7,
+    y:100,
+},"mount")
+tl.to("#bg",{
+    scale:1.3,
+},"mount")
+tl.to(".page1 h1",{
+    scale:1.5,
+    y:300,
 },"mount")

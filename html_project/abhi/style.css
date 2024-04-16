@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding:0;
     margin:0;
@@ -28,15 +29,15 @@ body{
     width:55%;
     position:absolute;
     z-index: 4;
-    top:-80.5%;
+    top:-74.5%;
     left:0;
 }
 #rightmount{
     width:47.8%;
     position: absolute;
     z-index: 4;
-    right:0;
-    top:-18.3%;
+    right:0%;
+    top:-14.8%;
 }
 
 .page2 {
@@ -52,8 +53,20 @@ body{
     position: absolute;
 }
 #man{
-    width:100%;
+    width:40%;
     z-index: 99;
     position: absolute;
-    mix-blend-mode: ;
+    bottom:0;
+    left:25%;
+    z-index: 3;
+}
+.page1 h1{
+    font-family: Poppins;
+    font-size:5vw;
+    position: absolute;
+    left:30%;
+    z-index: 3;
+    bottom:50%;
+    color:rgb(207, 255, 201);
+    /* filter:drop-shadow(0 5px 3px rgb(0, 58, 0)) */
 }
