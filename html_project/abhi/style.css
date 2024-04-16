@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    height:100vh;
+    width:100%;
+}
+
+.page1{
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+}
+
+#bg{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 1;
+}
+#leftmount{
+    width:55%;
+    position:absolute;
+    z-index: 4;
+    top:-80.5%;
+    left:0;
+}
+#rightmount{
+    width:47.8%;
+    position: absolute;
+    z-index: 4;
+    right:0;
+    top:-18.3%;
+}
+
+.page2 {
+    height:100vh;
+    width:100%;
+    background-color: beige;
+}
+.box{
+    height:200px;
+    width:100%;
+    z-index: 99999;
+    background-color: beige;
+    position: absolute;
+}
+#man{
+    width:100%;
+    z-index: 99;
+    position: absolute;
+    mix-blend-mode: ;
+}
