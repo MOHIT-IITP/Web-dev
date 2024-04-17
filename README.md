@@ -18,3 +18,10 @@ Technology i use for web dev
     <li>java</li>
     <li>java library</li>
 </ol>
+<h1>List of all the project till now</h1>
+<ol>
+    <li>insta add friend</li>
+    <li>custom cursor</li>
+    <li>Mountain Parallax</li>
+    <li>Fanta front page</li>
+</ol>
