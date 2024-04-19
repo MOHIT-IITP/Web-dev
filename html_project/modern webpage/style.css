@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    height:100%;
+    width:100%;
+    background:url("Wallpaper\ \(6\).png");
+    background-position:center;
+    background-size:cover;
+    overflow:hidden;
+}
+.page1{
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30vh;
+}
+.main{
+    height:100%;
+    width:100%;
+    background-color: transparent;
+    filter:blur(75px);
+    z-index: 3;
+    position: absolute;
+}
+.redbox{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border-radius: 70%;
+    position: absolute;
+    animation-name: redboxanime;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.bluebox{
+    height:200px;
+    width:200px;
+    background-color: rgb(0, 38, 255);
+    border-radius: 70%;
+    position: absolute;
+    animation-name:blueboxanime;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+.purplebox{
+    height:200px;
+    width:200px;
+    background-color: rgb(195, 0, 255);
+    border-radius: 70%;
+    position: absolute;
+}
+
+@keyframes redboxanime {
+    0%{
+        left:10%;
+        top:10%
+    }
+    25%{
+        left:30%;
+        top:30%;
+    }
+    50%{
+        left:50%;
+        top:70%;
+    }
+    75%{
+        left:70%;
+        top:20%;
+    }
+    100%{
+        left:100%;
+        top:80%;
+    }
+}
+        
+@keyframes blueboxanime {
+    0%{
+        left:20%;
+        top:80%
+    }
+    25%{
+        left:70%;
+        top:20%;
+    }
+    50%{
+        left:90%;
+        top:10%;
+    }
+    75%{
+        left:20%;
+        top:20%;
+    }
+    100%{
+        left:70%;
+        top:20%;
+    }
+}
+#blob{
+    position: absolute;
+    width:40%;
+    left:60%;
+    top:30%;
+    animation-name: blobanime;
+    animation-duration: 80s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes blobanime {
+    0%{
+        scale:0.4;
+        transform: rotate(140deg);
+    }
+    25%{
+        scale:1.2;
+        transform: rotate(20deg);
+    }
+    50%{
+        scale:0.8;
+        transform: rotate(170deg);
+    }
+    75%{
+        scale:1.0;
+        transform: rotate(360deg);
+    }
+    100%{
+        scale:1.4;
+        transform: rotate(30deg);
+
+    }
+
+    
+}
+h1{
+    font-size: 7vw;
+    font-family: Poppins;
+    color: white;
+}
+p{
+    font-size:1vw;
+    font-family:Poppins;
+    color:white;
+}
+#blob1{
+    position: absolute;
+    width:10%;
+    left:0%;
+    top:0%;
+    animation-name: blobanime;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
