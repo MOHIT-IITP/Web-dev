@@ -5,8 +5,4 @@
 <img src="../html_project/hover_effect/ss.png" height:100% width:100%>
 <img src="../html_project/shoe_site_under_process/ss.png" height:100% width:100%>
 <img src="../html_project/gsap practice/ss.png" height:100% width:100%>
-<video width="320" height="240"  autoplay muted>
-    <source src="./fanta parallax/fanta.mp4" type="video/mp4">
-    Your browser does not supprot the video tag.
-</video>
 <img src="../html_project/modern webpage/1713502852.png" height:100% width:100%>
