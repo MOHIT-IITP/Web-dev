@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body class="bg-nila">
+  <div  id="main" class=" relative">
+    <div data-scroll data-scroll-speed="-5" class="page1  h-screen w-screen relative">
+      <video class=" h-full w-full object-cover absolute top-0 " src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop muted ></video>
+
+      <!-- navbar starting from here  -->
+
+        <nav class="pt-[5vh] flex justify-between pl-[6vw] pr-[6vw]">
+          <img src="./1721142915.png" alt="">
+          <div class="flex justify-between items-center gap-10">
+            <button class="  hover:text-black hover:bg-white transition-all ease border-[1px] px-[2vw] py-[1vh]  text-white rounded-full">Book a Demo</button>
+            <button class=" hover:text-black hover:bg-white transition-all ease  text-xl border-[1px] px-[2vw] py-[1vh] text-white rounded-full "><i class="ri-menu-5-fill"></i></button>
+          </div>
+        </nav>
+
+
+        <!-- font-section of page 1 started from here ---- -->
+      <div class="font-page1 absolute bottom-20 left-[10vw]">
+      <h1 class="font-light text-[6.7rem] tracking-wide leading-[115px] text-white " >Experience Real <br> Estate Agility</h1>
+      <div class="flex justify-between items-center gap-10">
+      <p class="pt-[7vh] text-2xl font-light leading-9  text-white tracking-wide">Create a Digital Twin Token (DTT®) of your <br> existing building and release the potential of <br> Web3.</p>
+      <button class="hover:bg-black hover:text-white transition-all ease  h-[7vh]  px-[3vw] py-[2vh] border-[1px] bg-white text-nila text-xl rounded-full ">LEARN MORE</button>
+      </div>
+    </div>
+    <div>
+      <p class="absolute text-white text-xl font-light bottom-10 right-24 ">SCROLL
+        <div class=" text-white text-2xl font-light animate-bounce absolute bottom-10 right-16">
+         <i class="ri-arrow-down-line "></i></p>
+        </div>
+    </div>
+
+
+  </div>
+  <!-- page2 staring ---  -->
+  <div class=" page2 font-light  pl-[10vw] bg-nila relative h-screen w-screen flex justify-center gap-11   items-start  flex-col ">
+    <p class="text-2xl  text-white ">CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</p>
+    <h2 class="text-7xl leading-[100px] text-gray-500">The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building’s components and systems essential information into a DTT®.</h2>
+  </div>
+
+  <!-- page3 starting ----  -->
+   <div id="page3" class="page3 h-screen w-screen relative bg-red-500">
+    <canvas class="max-h-screen max-w-screen relative"></canvas>
+   </div>
+   <!-- page4 starting ---- -->
+    <div class="page4 pr-[10vw] font-light pl-[10vw] bg-nila reltive h-screen w-screen flex justify-center gap-11 items-start flex-col  ">
+      <p class="text-white text-2xl">CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</p>
+      <h2 class="text-gray-500 leading-[100px] text-7xl">Users connect directly to the DTT® without any intermediaries. As Stakeholder, they have the power to upload and verify information that enriches the Digital Twin Token. A Stakeholder's ability to access validated-data to perform tasks depends on their specific role.</h2>
+    </div>
+
+    <!-- page5 starting --- >  -->
+     <div class="page5 relative h-screen w-screen"> 
+      <canvas class="relative max-h-screen max-w-screen"></canvas>
+     </div>
+     
+     <!-- page6 starting --- >  -->
+      <div class="page6 h-screen w-screen relative font-light bg-nila gap-11 flex justify-center items-start flex-col px-[10vw] ">
+        <p class="text-2xl text-white ">INCREASE YOUR DIGITAL TWIN TOKEN’S VALUE</p>
+        <h2 class="text-7xl leading-[100px] text-gray-500">DTT® data increases the value of your digital asset by lowering operational costs, improving energy use, assisting commercialization, and boosting the liquidity of your building.</h2>
+      </div>
+
+      <!-- page7  starting --- -->
+       <div class="page7 h-screen w-screen bg-nila relative">
+        <div class="page7-outer  flex items-center justify-center h-[10vw] w-[10vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-[0.1px] rounded-full bg-transparent ">
+          <div class="page7-inner h-[70%] w-[70%] border-[1px] border-white rounded-full bg-transparent"></div></div>
+        <canvas class="relative max-h-screen max-w-screen"></canvas>
+      </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

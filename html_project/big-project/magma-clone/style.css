@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page1>video{
+  z-index:-1;
+}
+body{
+  font-family: Poppins;
+}
+
+.page7-outer{
+  z-index:9;
+}
