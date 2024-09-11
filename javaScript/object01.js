@@ -15,7 +15,6 @@ const user = {
 }
 
 // two ways to get the keys and value of object
-
 console.log(user.email);
 console.log(user["email"]);
 console.log(user["full name"]);  // important
@@ -32,10 +31,14 @@ const user1 = {
   email : "mohit@chatgpt.com"
 }
 
-user1.email = "mohit@microsoft.com";
-Object.freeze(user1);
+Object.freeze(user1);  
 // from now no change will be add to the main object
+user1.email = "mohit@microsoft.com";
+console.log(user1.email);
 
-user1.email = "golden@iitp.com";
-console.log(user1.email);  // mohit@microsoft.com
+//user1.email = "golden@iitp.com";
+//console.log(user1.email);  // mohit@microsoft.com
+
+
+
 
