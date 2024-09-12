@@ -43,11 +43,11 @@ function newfunc1 () {
 }
 
 // cannot declare this function before creating this 
+nyc(); // this will give error 
 
 const nyc = function() {
   console.log("this is second fucntion");
 }
 
-nyc();
 
 
