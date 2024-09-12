@@ -32,15 +32,15 @@ console.log(newUser.name?.surname); // ? to check if that is present there or no
 
 // how to merge two or more object together 
 const source1 = {
-  name : "mohit",
-  age: 23,
-  gender : "male"
+  name1 : "mohit",
+  age1: 23,
+  gender1 : "male"
 }
 
 const source2 = {
-  name : "Abhijeet",
-  age: 22,
-  gender: "male"
+  name2 : "Abhijeet",
+  age2: 22,
+  gender2: "male"
 }
 
 const source3 = {
@@ -54,5 +54,36 @@ const nothing = Object.assign({}, source1, source2, source3);
 console.log(nothing);
 
 
+// another method
+
+const target1 = {...source1, ...source2, ...source3}
+console.log(target1);
+
+// how to print only the keys and value in object
+
+// printing the keys 
+const usr1 = {
+  name:"mohit",
+  gender: "male",
+  age: 23,
+  college : "IITP",
+  address: "Bengaluru"
+}
+
+console.log(Object.keys(usr1));  //[ 'name', 'gender', 'age', 'college', 'address' ]
+
+// printing the values
+console.log(Object.values(usr1)); // [ 'mohit', 'male', 23, 'IITP', 'Bengaluru' ]
 
 
+// printing both the keys and value in form of array
+console.log(Object.entries(usr1));
+
+
+/*[
+  [ 'name', 'mohit' ],
+  [ 'gender', 'male' ],
+  [ 'age', 23 ],
+  [ 'college', 'IITP' ],
+  [ 'address', 'Bengaluru' ]
+]*/
