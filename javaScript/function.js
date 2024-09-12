@@ -8,6 +8,7 @@ console.log(mynew(23,34));
 const Lnew = function ( a, b) {
   return a + b;
 }
+Lnew(23,4); // this will not print the value in the terminal(console)
 console.log(Lnew(23,43));
 
 
