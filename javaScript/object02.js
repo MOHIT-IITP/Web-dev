@@ -87,3 +87,6 @@ console.log(Object.entries(usr1));
   [ 'college', 'IITP' ],
   [ 'address', 'Bengaluru' ]
 ]*/
+
+console.log(usr1.hasOwnProperty('name'));
+// to check if any property is availabe is present or not 
