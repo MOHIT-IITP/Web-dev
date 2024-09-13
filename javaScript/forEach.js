@@ -28,3 +28,31 @@ bmw 1 [ 'volvo', 'bmw', 'mercedes', 'toyota' ]
 mercedes 2 [ 'volvo', 'bmw', 'mercedes', 'toyota' ]
 toyota 3 [ 'volvo', 'bmw', 'mercedes', 'toyota' ]
 */
+
+
+
+// JSON
+const json = [{
+  name: "mohit",
+  course: "js chai aur code",
+  age:23,
+  gender: "male"
+
+},{
+  name: "abhijeet",
+  course: "react chai aur code",
+  age:32,
+  gender: "male"
+
+  },{
+  name: "abhishek",
+  course: "mongo chai aur code",
+  age:32,
+  gender: "Rather not to say"
+  
+
+  }]
+
+json.forEach((item) => {
+  console.log(item.course);
+})
