@@ -14,3 +14,17 @@ function myname(username) {
 
 customer.forEach(myname) // here pass the reference
 
+
+
+// i want to print first the elem , index , whole array
+
+customer.forEach( (item,index,arr) => {
+  console.log(item, index, arr);
+})
+
+/*
+volvo 0 [ 'volvo', 'bmw', 'mercedes', 'toyota' ]
+bmw 1 [ 'volvo', 'bmw', 'mercedes', 'toyota' ]
+mercedes 2 [ 'volvo', 'bmw', 'mercedes', 'toyota' ]
+toyota 3 [ 'volvo', 'bmw', 'mercedes', 'toyota' ]
+*/
