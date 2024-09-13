@@ -9,6 +9,7 @@
 
 // creating another arrow function (immediately invoking function)
 
+// arrow function immediately invoke
 ( () => {
   // simple IIFE
   console.log("this is arrow function");
