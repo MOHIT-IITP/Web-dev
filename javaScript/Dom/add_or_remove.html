@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color: #121212; color:#fff;">
+
+  <ul class="language">
+    <li>javascript</li>
+  </ul>
+
+  <script>
+    function addLanguage(languagename){
+      const li = document.createElement('li')
+      li.innerHTML = ` ${languagename}` 
+      const div = document.querySelector('.language')
+      div.appendChild(li)
+    }
+    addLanguage('python');
+    
+
+    // optimise approach 
+    function addOptLang(lang){
+      const li = document.createElement('li')
+      li.append(document.createTextNode(`${lang}`))
+      document.querySelector('.language').appendChild(li)
+    }
+    addOptLang('Typescript')
+
+
+    // how to edit the existing element
+    const secondLang = document.querySelector("li:nth-child(2)")
+    const newli = document.createElement('li')
+    newli.textContent = "GoLang"
+    secondLang.replaceWith(newli)
+
+
+    // editing in another way
+    const firstchild = document.querySelector("li:first-child")
+    firstchild.outerHTML = '<h1>React</h1>'
+
+
+    // remove 
+    const nchild = document.querySelector("li:last-child")
+    nchild.remove()
+    // here removing the last child (Typescript)
+  </script>
+</body>
+</html>
