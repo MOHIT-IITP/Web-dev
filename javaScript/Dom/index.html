@@ -17,8 +17,28 @@
     </div>
   
     <script>
-    const parent = document.querySelector(".parent")
-    console.log(parent)
+      const parent = document.querySelector(".parent") // only select the first value
+      console.log(parent)
+      console.log(parent.children) // gives the HTMLCollection 
+
+      // if you wanna print the element of the parent 
+      console.log(parent.children[1]) // prints tuesday with its properties
+      console.log(parent.children[1].innerHTML) // prins tuesday
+
+      //printing all the element of the parent . using for loop
+      for(let i =0;i<parent.children.length ;i++){
+        console.log(parent.children[i].innerHTML);
+      }
+
+      // get the parent element from the child element
+      const child = document.querySelector(".day")
+      console.log(child.parentElement); // prints the parent elemnt
+      console.log(child.nextElementSibling); // prints the sibling , here monday tuesday , wed etc
+
+
+      // if you wanna see how the things work in web
+      console.log(parent.childNodes) // it will prints the NodeList
+      
     </script>
   </body>
 </html>
