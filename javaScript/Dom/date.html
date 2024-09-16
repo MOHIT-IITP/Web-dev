@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date</title>
+</head>
+<body>
+  <h1>Your Local Time </h1>
+  <h2 id="time"></h2>
+  
+  <script>
+
+    const time = document.querySelector('#time')
+    setInterval(function () {
+      let date = new Date();
+      const livedate = date.toLocaleTimeString();
+      time.innerHTML = `${livedate}`;
+    }, 1000)
+
+  </script>
+</body>
+</html>
