@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form>
+    <p><label>Height in CM: </label><input type="text" id="height" /></p>
+    <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+    <button type="submit">Calculate</button>
+    <div id="results"></div>
+  </form>
+
+  <script>
+    const form = document.querySelector('.form')
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+
+      const height = parseInt(document.querySelector('#height').value);
+      const weight = parseInt(document.querySelector('#weight').value);
+      const results  = document.querySelector('#results');
+
+      if(height < 0  || isNaN(height) || height === ''){
+        results.innerHTML = "Please give valid height";
+
+      }else if(weight < 0  || isNaN(weight) || weight === ''){
+        results.innerHTML="Please give valid weight";
+
+      }else{
+        const ans = (weight / (height*height)/10000).toFixed(2)
+        results.innerHTML = `<span> ${ans} </span>`;
+      }
+    })
+  </script>
+
+</body>
+</html>
