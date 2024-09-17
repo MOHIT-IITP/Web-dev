@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  box-sizing: border-box;
+  height:100%;
+  width: 100%;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background: url(./back.jpg);
+}
+.first{
+  height: 100%;
+  font-family: Poppins;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+}
+.main{
+  background-color: white;
+  height:auto;
+  width: 30vw;
+  border: 2px solid white;
+  filter:drop-shadow(2px 2px  5px cyan);
+  filter: blur(30%);
+  border-radius: 30px;
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+#task {
+  height:3rem;
+  width:20vw;
+  border: 2px solid white;
+  color:black;
+  font-size: 1rem;
+  border-radius: 40px;
+  background-color: #D3D3D3;
+}
+#addtask{
+  height:3rem;
+  width:10vw;
+  margin-left: -2.5vw;
+  border: 2px solid;
+  border-radius: 40px;
+  color: white;
+  background-color: orangered;
+}
+
+.taskText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.deletebtn{
+  height:3rem;
+  width:10vw;
+  color:white;
+  background-color: orangered;
+  border: 3px solid white;
+  border-radius: 40px;
+}
+.cbtn{
+  height:2vh;
+  width:2vw;
+}
