@@ -2,7 +2,7 @@
 
 const promisefive = new Promise(function (resolve, reject) {
   setTimeout(() => {
-    let error = true;
+    let error = false;
     if (!error) {
       resolve({
         username: "golden",
@@ -50,4 +50,5 @@ fetch("https://jsonplaceholder.typicode.com/users")
   .then((data) => {
     console.log(data);
   })
-  .catch((error) => console.log(error));
+  .catch((error) => console.log(error))
+  .finally(() => console.log("done"));
